@@ -2,6 +2,7 @@ import React from 'react'
 import { FaSearch } from "react-icons/fa";
 import { FaShoppingCart } from "react-icons/fa";
 import { FaGlobe } from "react-icons/fa6";
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
   return (
@@ -31,8 +32,8 @@ const Navbar = () => {
     <FaShoppingCart  className='text-3xl'/>
     </div>
       <div className='hidden buttons xl:flex gap-4'>
-        <button type="button" className='border border-black bg-transparent text-xl px-4 py-2'>Log in</button>
-        <button type="button" className='bg-black text-white  text-xl px-4 py-2'>Sign UP</button>
+        <button type="button" className='border border-black bg-transparent text-xl px-4 py-2'><Link to="/login">Log in</Link></button>
+        <button type="button" className='bg-black text-white  text-xl px-4 py-2'><Link to="/signup">Sign UP</Link></button>
         <button type="button" className='border border-black bg-transparent  text-xl px-4 py-2'><FaGlobe /></button>
       </div>
       </div>
