@@ -6,7 +6,7 @@ import { FaApple } from "react-icons/fa";
 
 const Login = () => {
   return (
-    <div className="max-w-lg mx-auto flex flex-col mt-24 gap-4">
+    <div className="max-w-sm mx-auto flex flex-col mt-24 gap-4">
       <h1 className="text-2xl font-bold">Log in to your Udemy account</h1>
 
       <button className='w-full border border-black text-left px-2 py-4 flex flex-row items-center gap-2 hover:bg-slate-300'> 
