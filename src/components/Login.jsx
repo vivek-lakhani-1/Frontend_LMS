@@ -24,10 +24,10 @@ const Login = () => {
 
       <form >
         <input type="email"
-               placeholder="email"
+               placeholder="Email"
                className='w-full border border-black py-6 px-2 text-2xl text-black' />
         <input type="password"
-               placeholder="password"
+               placeholder="Password"
                className='w-full border border-black py-6 px-2 text-2xl text-black mt-4' />
         <button type="button" className='w-full text-center py-4  bg-green-500 border border-black mt-4 text-white text-xl'>Log in</button>
       </form>
