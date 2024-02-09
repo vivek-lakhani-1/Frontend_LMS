@@ -28,7 +28,7 @@ const SignUp = () => {
         </button>
        
       </form>
-      <span className='inline text-center text-3xl'> or <a href="#" >ForgotPassword</a></span>
+    
     </div>
   );
 }
