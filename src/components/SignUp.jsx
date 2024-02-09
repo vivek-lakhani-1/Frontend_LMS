@@ -31,7 +31,7 @@ const SignUp = () => {
         ...SignUpData,
         password : hashedPassword
       });
-      console.log('Response:', response.data);
+      
       
     } catch (error) {
       console.error('Error:', error);
