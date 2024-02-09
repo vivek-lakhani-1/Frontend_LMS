@@ -6,7 +6,11 @@ import { FaApple } from "react-icons/fa";
 
 const Login = () => {
   return (
+<<<<<<< Updated upstream
     <div className="max-w-sm mx-auto flex flex-col mt-24 gap-4">
+=======
+    <div className="max-w-lg mx-auto flex flex-col mt-24 gap-4">
+>>>>>>> Stashed changes
       <h1 className="text-2xl font-bold">Log in to your Udemy account</h1>
 
       <button className='w-full border border-black text-left px-2 py-4 flex flex-row items-center gap-2 hover:bg-slate-300'> 
@@ -24,10 +28,17 @@ const Login = () => {
 
       <form >
         <input type="email"
+<<<<<<< Updated upstream
                placeholder="Email"
                className='w-full border border-black py-6 px-2 text-2xl text-black' />
         <input type="password"
                placeholder="Password"
+=======
+               placeholder="email"
+               className='w-full border border-black py-6 px-2 text-2xl text-black' />
+        <input type="password"
+               placeholder="password"
+>>>>>>> Stashed changes
                className='w-full border border-black py-6 px-2 text-2xl text-black mt-4' />
         <button type="button" className='w-full text-center py-4  bg-green-500 border border-black mt-4 text-white text-xl'>Log in</button>
       </form>
